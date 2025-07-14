@@ -1,7 +1,7 @@
 // ✅ send-sms.js — Updated with full notification logic
 import { createClient } from '@supabase/supabase-js';
 import twilio from 'twilio';
-import dotenv from 'dotenv';
+import * as dotenv from 'dotenv';
 dotenv.config();
 
 const supabase = createClient(
